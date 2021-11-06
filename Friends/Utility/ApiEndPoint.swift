@@ -13,7 +13,7 @@ import Foundation
 struct ApiEndPoint {
     public var BASE_URL: String  = "https://randomuser.me/api/"
     
-    public var  GET_FRIENDS : String =  "?results=10"
+    public var  GET_FRIENDS : String =  "?results=100"
     
     //Headers
     public var KEY_CONTENT_TYPE: String = "Content-Type"

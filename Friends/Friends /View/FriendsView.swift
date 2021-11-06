@@ -11,7 +11,7 @@ struct FriendsView: View {
     
     @StateObject var friendsVM = FriendsVM()
     
-    let columns: [GridItem] = Array(repeating: .init(.flexible(),alignment: .topLeading) , count: 5)
+    let columns: [GridItem] = Array(repeating: .init(.flexible(),alignment: .topLeading) , count: 10)
     
     
     
